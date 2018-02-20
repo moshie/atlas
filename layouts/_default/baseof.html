@@ -17,6 +17,8 @@
     </head>
     <body>
 
+        {{ getenv "URL" }}
+
         {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
 
         <main class="site-main" role="main">
